@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>You For 2032</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+
+        <link href="http://fonts.cdnfonts.com/css/meta-pro" rel="stylesheet" />
+        <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet" />
+
+        <link rel="stylesheet" href="/assets/js/slick/slick.css" />
+        <link rel="stylesheet" href="/assets/js/slick/slick-theme.css" />
+
+        <link rel="stylesheet" href="/assets/css/style.css" />
+    </head>
+    <body>
+        <header id="header">
+            <div
+                class="d-flex h-100 justify-content-between align-items-center"
+            >
+                <img
+                    src="/assets/images/queenslandAcademyOfSport.svg"
+                    alt="Queensland Academy of Sport"
+                />
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-outline-black">Register Now</button>
+                    <img
+                        id="phonelaptop"
+                        src="assets/images/phoneLaptop.svg"
+                        alt="phone-laptop"
+                        class="d-none d-md-inline-block"
+                    />
+                </div>
+            </div>
+        </header>
+        <div id="hero" class="bg-black">
+            <div
+                class="container d-flex flex-md-row flex-column justify-content-md-between align-items-center h-100 align-items-start"
+            >
+                <img src="/assets/images/youfor.svg" alt="YOU FOR 2032" id="youfor" />
+                <div
+                    class="text-center d-flex flex-column align-items-center justify-content-center h-100"
+                >
+                    <img
+                        src="/assets/images/madeforyou.svg"
+                        alt="2032 is made for you"
+                        id="madeforyou"
+                    />
+                    <h1 id="onyourmarks">
+                        On your marks!<br class="d-md-none d-block" /> Get set!<br class="d-none d-md-block" /> Wait for it ...
+                    </h1>
+                    <button class="btn btn-prime">
+                        Register your interest
+                    </button>
+                    <img src="/assets/images/caret-down.svg" id="caret-down" alt="..." />
+                </div>
+            </div>
+        </div>
+        <div id="highlight">
+            <div class="container">
+                <h2 class="text-center">
+                    This could be your starting line for the 2032 Olympic and
+                    Paralympic Games in Brisbane
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p>
+                            We’re looking for talented young Queensland athletes
+                            with Olympic-sized dreams to register their interest
+                            in being part of the Queensland Academy of Sport’s
+                            Talent Identification Program—You for 2032! This
+                            program is strictly for talent born between 1999 and
+                            2009 inclusive, with Para-Sports accepting those who
+                            are a little older (i.e. 1992 to 2009 inclusive).
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="d-flex">
+                            <img
+                                class="me-3"
+                                src="/assets/images/caution.svg"
+                                alt="#"
+                            />
+                            <span>
+                                <strong>Caution:</strong> our standards are high
+                                (because we want the best!) but if you think you
+                                have what it takes to win on the world stage
+                                pre-register now.
+                            </span>
+                        </p>
+                        <p>
+                            Further information will become available in January
+                            2022 when we launch our application portal. By
+                            pre-registering you will automatically be prompted
+                            when applications are open.
+                        </p>
+                    </div>
+                </div>
+                <h4 class="text-center">
+                    <strong
+                        >This could be the first step in your Olympic or
+                        Paralympic journey.</strong
+                    >
+                    <i>Good luck!</i>
+                </h4>
+            </div>
+        </div>
+        <div id="register">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 pe-md-5">
+                        <h3 class="text-center text-md-start">Register now!</h3>
+                        <p class="d-none d-md-block">
+                            Register your details and create an account. When
+                            applications open in December, we'll let you know.
+                        </p>
+                    </div>
+                    <div class="col-md-7">
+                        <form>
+                            <div class="row align-items-center">
+                                <label class="col-md-4 col-form-label"
+                                    >First name:</label
+                                >
+                                <div class="col-md-8">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label"
+                                    >Surname:</label
+                                >
+                                <div class="col-md-8">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label"
+                                    >Date of Birth:</label
+                                >
+                                <div class="col-md-8">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label"
+                                    >Email address:</label
+                                >
+                                <div class="col-md-8">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label"
+                                    >Mobile number:</label
+                                >
+                                <div class="col-md-8">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row" id="submit">
+                                <div
+                                    class="offset-md-4 col-md-4 col-7 d-flex flex-column"
+                                >
+                                    <a href="#">Privacy policy</a>
+                                    <a href="#">Terms and conditions</a>
+                                </div>
+                                <div class="col-md-4 col-5 d-grid gap-2">
+                                    <button type="submit" class="btn btn-dark">
+                                        Register now
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="snapshot">
+            <div class="container">
+                <h2 class="text-center">
+                    <i>You for 2032</i>—Program snapshot
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p>
+                            The Talent Identification Program—<i>You for 2032</i
+                            >—has been designed to identify our next generation
+                            of elite athletes. The aim is to develop and nurture
+                            young Queensland talents who have the potential to
+                            win on the world stage at the 2032 Olympic and
+                            Paralympic Games.
+                        </p>
+                        <p>
+                            Athletic ability coupled with a great attitude to
+                            excel are the key ingredients in this program. Young
+                            athletes could be currently competing in a sport
+                            that isn’t part of the Olympic and Paralympic Games,
+                            but we may identity a sport that’s perfect for their
+                            athletic strengths.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p>
+                            Those successful in being selected for the program
+                            will receive substantial training, coaching and
+                            development support from state and national sporting
+                            organisations as well as the Queensland Academy of
+                            Sport. More details about the program will become
+                            available to athletes who are selected.
+                        </p>
+                        <p>
+                            Once the application portal opens in January, an
+                            assessment process will take place, as indicated by
+                            the below diagram.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slides">
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>1</p>
+                    <div class="position-relative">
+                        <div
+                            class="card bg-black justify-content-center border-0"
+                        >
+                            <p class="text-center">Register your interest</p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>2</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center border-0"
+                        >
+                            <p class="text-center">
+                                Applications open in December
+                            </p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>3</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center border-0"
+                        >
+                            <p class="text-center">Submit your application</p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>4</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center bg-red border-0"
+                        >
+                            <p class="text-center">Assessment</p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>5</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center border-0"
+                        >
+                            <p class="text-center">
+                                Get invited to our testing days
+                            </p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>6</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center bg-red border-0"
+                        >
+                            <p class="text-center">Assessment</p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>7</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center border-0"
+                        >
+                            <p class="text-center">Qualify for our combines</p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>8</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center bg-red border-0"
+                        >
+                            <p class="text-center">Assessment</p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>9</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center border-0"
+                        >
+                            <p class="text-center">
+                                Confirmation and selection into development
+                                program
+                            </p>
+                        </div>
+                        <img
+                            class="position-absolute top-50 translate-middle-y start-100"
+                            src="/assets/images/arrow.svg"
+                            alt="->"
+                        />
+                    </div>
+                </div>
+                <div class="slide d-flex flex-column align-items-center">
+                    <p>10</p>
+                    <div class="position-relative">
+                        <div
+                            class="card d-flex justify-content-center align-items-center border-0"
+                        >
+                            <img src="/assets/images/2032.svg" alt="2032" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="locations">
+            <div class="container">
+                <h2 class="text-center">Testing session locations</h2>
+                <p>
+                    You for 2032 testing days will be hosted across Queensland
+                    in the first half of 2022. Below is a list of the regions,
+                    broken down to cities, towns and suburbs identified as hosts
+                    for testing sessions. As part of the selection process
+                    athletes will need to be prepared to attend at least one
+                    testing day.
+                </p>
+                <div class="row cards">
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Darling Downs</h5>
+                                <p class="card-text">Warwick, Toowomba</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Wide Bay Region</h5>
+                                <p class="card-text">
+                                    Gympie, Hervey Bay, Bundaberg, Kingaroy
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Scenic Rim</h5>
+                                <p class="card-text">Beaudesert</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Gold Coast</h5>
+                                <p class="card-text">Carrara</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Sunshine Coast</h5>
+                                <p class="card-text">Sippy Downs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Metro Brisbane</h5>
+                                <p class="card-text">
+                                    Chandler, Morayfield, Toowong, Ipswich
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Capricornia</h5>
+                                <p class="card-text">
+                                    Gladstone, Rockhampton, Emerald
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">North West Region</h5>
+                                <p class="card-text">Longreach, Mt. Isa</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">North Queensland</h5>
+                                <p class="card-text">
+                                    Ingham, Townsville, Airlie Beach, Mackay,
+                                    Cairns
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">South West Region</h5>
+                                <p class="card-text">
+                                    Roma, Dalby, St. George, Goondiwindi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <button class="btn btn-dark">
+                            Register your interest
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="faq">
+            <div class="container">
+                <h2 class="text-center">FAQs</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne"
+                            >
+                                Who is eligible to apply for this program?
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body d-flex">
+                                <span> Lorem ipsum </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo"
+                            >
+                                What if I am younger than 13 in 2022 or older
+                                than 23 in 2022?
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseTwo"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body d-flex">
+                                <span
+                                    >You will not be eligible for this general
+                                    Talent Identification Program. However, you
+                                    may be eligible for some sport specific
+                                    programs which will become available in late
+                                    2022 and into 2023. Skateboarding and diving
+                                    would be examples of sports where younger
+                                    age groups that can be accommodated in
+                                    specific campaigns for those with 2032
+                                    Olympic and Paralympic Games aspirations.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree"
+                            >
+                                Can I still aim to go to the Olympics in 2032,
+                                even if I don’t try out in the QAS TID Program.
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseThree"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body d-flex">
+                                <span>Lorem ipsum</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour"
+                                aria-expanded="false"
+                                aria-controls="collapseFour"
+                            >
+                                If I get offered a chance to try a new sport
+                                through this TID program, does this mean that I
+                                have to give up the sports that I am doing
+                                already?
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseFour"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body d-flex">
+                                <span>Lorem ipsum</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive"
+                                aria-expanded="false"
+                                aria-controls="collapseFive"
+                            >
+                                I noticed that my region isn’t on the testing
+                                list. Can I still participate?
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseFive"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body d-flex">
+                                <span
+                                    >We have done our best to provide a testing
+                                    location for all Queenslanders, across the
+                                    state. In some very remote locations, we
+                                    know that athletic talent is definitely out
+                                    there. We are currently developing a
+                                    slightly different approach to support
+                                    talent in these locations. Send us an email
+                                    at Youfor2032@dtis.qld.gov.au of where you
+                                    would like us to visit!</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix"
+                                aria-expanded="false"
+                                aria-controls="collapseSix"
+                            >
+                                Do I have to relocate from my home and region to
+                                join this Talent Development program?
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseSix"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingSix"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body d-flex">
+                                <span>Lorem ipsum</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven"
+                                aria-expanded="false"
+                                aria-controls="collapseSeven"
+                            >
+                                Can athletes with a disability also participate
+                                in this program?
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseSeven"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body d-flex">
+                                <span>Lorem ipsum</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-4">
+                    <p>
+                        <strong>Questions?</strong><br />
+                        <span
+                            >Contact the Queensland Academy of Sport via email
+                            <u>Youfor2032@dtis.qld.gov.au</u></span
+                        >
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="d-flex justify-content-md-end justify-content-center">
+                    <img
+                        src="/assets/images/queenslandGovernment.svg"
+                        alt="Queensland Government"
+                    />
+                </div>
+                <hr />
+                <div class="text-center">
+                    <p>Help | Copyright | Disclaimer | Privacy | Right to information | Accessibility | Jobs in Queensland Government | Tagalog (Other languages)</p>
+                    <p>© The State of Queensland 1995–2021</p>
+                    <p>Queensland Government</p>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-1.11.0.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script type="text/javascript" src="/assets/js/slick/slick.js"></script>
+        <script type="text/javascript" src="/assets/js/main.js"></script>
+    </body>
+</html>

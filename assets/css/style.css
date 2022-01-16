@@ -1,0 +1,413 @@
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-red{
+    background-color: #F3724A;
+    color: white;
+}
+
+.btn, h1, p, h4, h5, .accordion-button, ul{
+    font-family: Lato, sans-serif;
+}
+
+h2, h3, h4 i{
+    font-family: 'Meta Pro', sans-serif;
+    letter-spacing: -0.03em;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 42px;
+}
+
+h3{
+    font-size: 45px;
+    line-height: 42px;
+    margin-bottom: 33px;
+}
+
+h4{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 35px;
+}
+
+h4 i{
+    font-size: 30px;
+    line-height: 28px;
+    color: #F0534D;
+}
+
+p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.container{
+    max-width: 970px;
+}
+
+.btn{
+    font-weight: 900;
+}
+
+.btn-outline-black{
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 2.5px;
+    border: 2px solid black;
+    height: 40px;
+    width: 129px;
+}
+
+#phonelaptop{
+    margin-left: 60px;
+}
+
+.btn-prime{
+    background: #009AC6;
+    border-radius: 3px;
+    color: white;
+    height: 68px;
+    width: 281px;
+    margin-bottom: 36px;
+}
+
+#header{
+    height: 68px;
+    padding-left: 160px;
+    padding-right: 33px;
+}
+
+#header img{
+    height: 25px;
+    width: auto;
+}
+
+#hero{
+    height: 650px;
+}
+
+#madeforyou{
+    margin-bottom: 55px;
+}
+
+#onyourmarks{
+    margin-bottom: 33px;
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 900;
+}
+
+#highlight{
+    padding-top: 76px;
+    padding-bottom: 56px;
+}
+
+#highlight h2{
+    color: #009AC6;
+    margin-bottom: 21px;
+}
+
+#register{
+    background-image: url('/assets/images/bg-register.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 95px;
+    padding-bottom: 56px;
+    color: white;
+}
+
+#register p, #register label{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+input.form-control{
+    height: 57px;
+    border-radius: 3px;
+}
+
+form .row{
+    margin-bottom: 8px;
+}
+
+form #submit.row{
+    padding-top: 7px;
+}
+
+form a{
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#snapshot{
+    background-image: url('/assets/images/bg-snapshot.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 77px;
+    padding-bottom: 50px;
+}
+
+#snapshot h2, #locations h2{
+    margin-bottom: 38px;
+}
+
+.card{
+    border-radius: 3px;
+}
+
+.slides .slide .card{
+    width: 160px;
+    height: 160px;
+    padding: 20px 26px;
+}
+
+.slides .slide .card p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+#locations{
+    padding-top: 60px;
+    padding-bottom: 41px;
+}
+
+#locations p{
+    margin-bottom: 38px;
+}
+
+#locations .card h5, #locations .card p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+#locations h5{
+    font-weight: 700;
+}
+
+#locations .card{
+    margin-bottom: 8px;
+}
+
+#locations .cards{
+    margin-bottom: 33px;
+}
+
+#locations button{
+    height: 68px;
+    width: 281px;
+}
+
+#faq{
+    background-image: url('/assets/images/bg-faq.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 63px;
+    color: white;
+}
+
+.accordion{
+    margin-bottom: 24px;
+}
+
+.accordion-item{
+    background: transparent;
+    margin-bottom: 7px;
+}
+
+.accordion-button{
+    background: rgba(186, 58, 58, 0.2);
+    border-radius: 3px !important;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.accordion-button:not(.collapsed){
+    background: #BA3A3A;
+    color: white;
+}
+
+.accordion-button::after{
+    display: none;
+}
+
+.accordion-button::before{
+    content: "Q.";
+    font-weight: 700;
+    width: 27px;
+    margin-right: 9px;
+    flex-shrink: 0;
+}
+
+.accordion-collapse .accordion-body{
+    background: white;
+    color: #696969;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.accordion-collapse .accordion-body::before{
+    content: "A.";
+    font-weight: 700;
+    width: 27px;
+    margin-right: 9px;
+    color: #BA3A3A;
+    flex-shrink: 0;
+}
+
+#footer{
+    padding-top: 50px;
+    padding-bottom: 46px;
+}
+
+#footer .text-center, #footer p{
+    font-size: 13px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 767px){
+    #header{
+        height: 42px;
+        padding-left: 25px;
+        padding-right: 8px;
+    }
+
+    #header img{
+        height: 14px;
+    }
+
+    .btn-outline-black{
+        font-size: 11px;
+        line-height: 13px;
+        border: 1.3px solid #000000;
+        border-radius: 1.6px;
+        height: 26px;
+        width: 100px;
+    }
+
+    #youfor{
+        height: 235px;
+    }
+
+    #madeforyou{
+        height: 34px;
+        margin-bottom: 40px;
+    }
+
+    #onyourmarks{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .btn-prime{
+        width: 214px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    #caret-down{
+        width: 25px;
+    }
+
+    #hero{
+        height: 569px;
+    }
+
+    #highlight{
+        padding-top: 40px;
+        padding-bottom: 47px;
+    }
+
+    h2{
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    h4{
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    h4 i{
+        display: block;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #register{
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    h3{
+        font-size: 30px;
+        line-height: 42px;
+        margin-bottom: 29px;
+    }
+
+    #register label{
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    input.form-control{
+        height: 43px;
+    }
+
+    #snapshot{
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+    #snapshot h2, #locations h2{
+        margin-bottom: 21px;
+    }
+
+    #locations{
+        padding-top: 49px;
+        padding-bottom: 57px;
+    }
+
+    #faq{
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    
+    .accordion-button{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .accordion-button::before{
+        margin-right: 0;
+    }
+    
+    .accordion-collapse .accordion-body{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .accordion-collapse .accordion-body::before{
+        margin-right: 0;
+    }
+
+    #footer{
+        padding-top: 41px;
+    }
+}
