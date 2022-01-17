@@ -112,7 +112,7 @@ p{
 }
 
 #register{
-    background-image: url('/assets/images/bg-register.png');
+    background-image: url('./assets/images/bg-register.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 95px;
@@ -145,7 +145,7 @@ form a{
 }
 
 #snapshot{
-    background-image: url('/assets/images/bg-snapshot.png');
+    background-image: url('./assets/images/bg-snapshot.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 77px;
@@ -205,7 +205,7 @@ form a{
 }
 
 #faq{
-    background-image: url('/assets/images/bg-faq.png');
+    background-image: url('./assets/images/bg-faq.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 75px;
